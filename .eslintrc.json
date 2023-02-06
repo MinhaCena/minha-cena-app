@@ -16,7 +16,8 @@
     "plugin:@next/next/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:storybook/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "overrides": [],
@@ -27,7 +28,12 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "prettier", "react-hooks", "@typescript-eslint"],
+  "plugins": [
+    "react",
+    "prettier",
+    "react-hooks",
+    "@typescript-eslint"
+  ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
